@@ -25,7 +25,7 @@ public class TesteTest {
 	
 	@Test 
 	public void diminuiSucesso() {
-		assertEquals(2, diminui(5,3));
+		assertEquals(3, diminui(6,3));
 	}
 	
 	@Test 
