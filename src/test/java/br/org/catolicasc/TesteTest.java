@@ -28,6 +28,10 @@ public class TesteTest {
 		assertEquals(2, diminui(5,3));
 	}
 	
+	@Test 
+	public void diminuiErro() {
+		assertNotEquals(1, diminui(1,1));
+	}
 	
 	public int soma(int valor1, int valor2 ) {
 		return valor1+valor2; 
