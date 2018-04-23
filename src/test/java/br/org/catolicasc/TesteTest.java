@@ -30,7 +30,7 @@ public class TesteTest {
 	
 	@Test 
 	public void diminuiErro() {
-		assertNotEquals(1, diminui(1,1));
+		assertNotEquals(1, diminui(3,1));
 	}
 	
 	public int soma(int valor1, int valor2 ) {
