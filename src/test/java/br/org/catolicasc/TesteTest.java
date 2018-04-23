@@ -20,7 +20,7 @@ public class TesteTest {
 	
 	@Test 
 	public void somaErro() {
-		assertNotEquals(1, soma(1,1));
+		assertNotEquals(1, soma(3,1));
 	}
 	
 	@Test 
