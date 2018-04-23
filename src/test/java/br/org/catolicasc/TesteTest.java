@@ -15,7 +15,7 @@ public class TesteTest {
 	
 	@Test 
 	public void somaSucesso() {
-		assertEquals(2, soma(1,1));
+		assertEquals(3, soma(2,1));
 	}
 	
 	@Test 
